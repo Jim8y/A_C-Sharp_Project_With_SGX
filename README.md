@@ -1,5 +1,5 @@
 
-# A_C-Sharp_Project_With_SGX
+# A C# Project With SGX
 
 This is a C# example project downloaded from intel with GUI implemented with SGX. ![Official Document](https://software.intel.com/en-us/articles/using-enclaves-with-callbacks-via-ocalls)
 
