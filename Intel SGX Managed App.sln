@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intel SGX Managed App", "Intel SGX Managed App\Intel SGX Managed App.csproj", "{2B467730-0CB9-4848-B508-B45AC3BC5EED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Intel SGX Support Detection", "Intel SGX Support Detection\Intel SGX Support Detection.vcxproj", "{2135250C-4D44-4D6F-9AB6-80B3803F6414}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enclave Link", "Enclave Link\Enclave Link.vcxproj", "{F235605A-2979-429B-A5ED-88349D0214ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E} = {82B30E48-D333-40DB-B289-4DAE12E5A86E}
+		{75553273-7DDD-4034-869B-FFB8A72EEA77} = {75553273-7DDD-4034-869B-FFB8A72EEA77}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enclave", "Enclave\Enclave.vcxproj", "{75553273-7DDD-4034-869B-FFB8A72EEA77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Enclave Bridge", "Enclave Bridge\Enclave Bridge.vcxproj", "{82B30E48-D333-40DB-B289-4DAE12E5A86E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75553273-7DDD-4034-869B-FFB8A72EEA77} = {75553273-7DDD-4034-869B-FFB8A72EEA77}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Prerelease|x64 = Prerelease|x64
+		Release|x64 = Release|x64
+		Simulation|x64 = Simulation|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Debug|x64.ActiveCfg = Debug|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Debug|x64.Build.0 = Debug|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Prerelease|x64.ActiveCfg = Release|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Prerelease|x64.Build.0 = Release|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Release|x64.ActiveCfg = Release|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Release|x64.Build.0 = Release|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Simulation|x64.ActiveCfg = Simulation|x64
+		{2B467730-0CB9-4848-B508-B45AC3BC5EED}.Simulation|x64.Build.0 = Simulation|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Debug|x64.ActiveCfg = Debug|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Debug|x64.Build.0 = Debug|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Prerelease|x64.ActiveCfg = Release|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Prerelease|x64.Build.0 = Release|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Release|x64.ActiveCfg = Release|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Release|x64.Build.0 = Release|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Simulation|x64.ActiveCfg = Simulation|x64
+		{2135250C-4D44-4D6F-9AB6-80B3803F6414}.Simulation|x64.Build.0 = Simulation|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Debug|x64.ActiveCfg = Debug|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Debug|x64.Build.0 = Debug|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Prerelease|x64.ActiveCfg = Prerelease|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Prerelease|x64.Build.0 = Prerelease|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Release|x64.ActiveCfg = Release|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Release|x64.Build.0 = Release|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Simulation|x64.ActiveCfg = Simulation|x64
+		{F235605A-2979-429B-A5ED-88349D0214ED}.Simulation|x64.Build.0 = Simulation|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Debug|x64.ActiveCfg = Debug|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Debug|x64.Build.0 = Debug|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Prerelease|x64.ActiveCfg = Prerelease|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Prerelease|x64.Build.0 = Prerelease|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Release|x64.ActiveCfg = Release|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Release|x64.Build.0 = Release|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Simulation|x64.ActiveCfg = Simulation|x64
+		{75553273-7DDD-4034-869B-FFB8A72EEA77}.Simulation|x64.Build.0 = Simulation|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Debug|x64.ActiveCfg = Debug|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Debug|x64.Build.0 = Debug|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Prerelease|x64.ActiveCfg = Prerelease|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Prerelease|x64.Build.0 = Prerelease|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Release|x64.ActiveCfg = Release|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Release|x64.Build.0 = Release|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Simulation|x64.ActiveCfg = Simulation|x64
+		{82B30E48-D333-40DB-B289-4DAE12E5A86E}.Simulation|x64.Build.0 = Simulation|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

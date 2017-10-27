@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{2B467730-0CB9-4848-B508-B45AC3BC5EED}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Enclave Link/targetver.h">
+    <Files>
+      <File FileName="Enclave Link/EnclaveLink.h" Line="1" Column="1" />
+      <File FileName="Enclave Bridge/EnclaveBridge.h" Line="1" Column="1" />
+      <File FileName="Intel SGX Support Detection/SGXWrapper.cpp" Line="153" Column="14" />
+      <File FileName="Enclave Link/dllmain.cpp" Line="31" Column="7" />
+      <File FileName="Enclave Link/EnclaveLinkManaged.cpp" Line="1" Column="1" />
+      <File FileName="Enclave Link/stdafx.cpp" Line="1" Column="1" />
+      <File FileName="Enclave Link/stdafx.h" Line="1" Column="1" />
+      <File FileName="Enclave Link/targetver.h" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x64" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Intel_220SGX_220Managed_220App PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
